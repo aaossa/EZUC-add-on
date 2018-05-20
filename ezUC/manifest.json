@@ -1,0 +1,29 @@
+{
+
+  "description": "Adds a button to reload the current page through ezproxy.uc.cl.",
+  "manifest_version": 2,
+  "name": "ezUC",
+  "version": "0.1",
+  "homepage_url": "https://github.com/aaossa/ezUC-add-on",
+  "icons": {
+    "48": "icons/book-48.png",
+    "96": "icons/book-96.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/book-48.png",
+    "theme_icons": [{
+      "light": "icons/book-48-light.png",
+      "dark": "icons/book-48.png",
+      "size": 48
+    }],
+    "default_title": "ezUC",
+    "default_popup": "popup/ez.html",
+    "browser_style": true
+  }
+
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ez.css">
+</head>
+
+<body>
+    <h1>ezUC</h1>
+    <form action="https://login.ezproxy.puc.cl/login" method="post">
+        <input name="url" value="" type="hidden" id="ez-url">
+        <br>
+        <input name="user" placeholder="Usuario UC" type="text">
+        <br>
+        <input name="pass" placeholder="Contraseña" type="password">
+        <br>
+        <input name="login" value="Iniciar Sesión" type="submit" id="ez-submit">
+    </form>
+    <div id="ez-spinner" style="display: none;"></div>
+    <script src="ez.js"></script>
+</body>
+
+</html>

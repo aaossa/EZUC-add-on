@@ -1,0 +1,53 @@
+body {
+    height: 200px;
+    width: 200px;
+    padding: 0 auto;
+    margin: 0 auto;
+    background-color: #ededf0;
+}
+
+body * {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    width: 60%;
+    height: 20px;
+    padding: 0 10px;
+    border: solid 1px #737373;
+    border-radius: 10px;
+    margin: 1px 0;
+}
+
+input[type="submit"] {
+    margin: 10px 0;
+    background-color: #737373;
+    color: #ededf0;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+#ez-spinner {
+    height: 20px;
+    width: 20px;
+    background-color: #737373;
+    margin: 10px auto;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: spin;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+
+}
